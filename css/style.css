@@ -18,7 +18,7 @@ a{
     text-decoration: none;
 }
 
-.ham-menu{
+.ham_menu{
     height: 40px;
     width: 40px;
     background-color: white;
@@ -28,4 +28,9 @@ img{
     width: 100px;
     height: 100px;
     background-color: white;
+}
+
+.foto_box{
+    height: 200px;
+    background-color: red;
 }
