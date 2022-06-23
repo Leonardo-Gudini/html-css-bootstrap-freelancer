@@ -13,3 +13,9 @@ ul{
 a{
     text-decoration: none;
 }
+
+.ham-menu{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+}
