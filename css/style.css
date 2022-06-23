@@ -2,7 +2,7 @@ body{
     font-family: Helvetica, sans-serif;
 }
 
-nav{
+nav, .copyright{
     background-color: #354050;
 }
 
@@ -33,4 +33,9 @@ img{
 .foto_box{
     height: 200px;
     background-color: red;
+}
+
+
+footer{
+    background-color: #44556C;
 }
