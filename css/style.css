@@ -74,9 +74,69 @@ form input, form textarea{
     width: 100%;
 }
 
+.ms_foto_container{
+    width: 100%;
+    position: relative;
+}
+
+/* .ms_foto_container:hover .card-img-overlay{
+    display: block;
+}
+
+.card-img-overlay{
+    background-color: rgba(0,0,0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* display: none;
+}
+
+.card-img-overlay>i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 60px;
+    display: none; 
+} */
+
+.overlay{
+    background-color: rgba(0,0,0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 60px;
+    display: none;
+}
+
+.ms_foto_container:hover .overlay,
+.ms_foto_container:hover .overlay-text{
+    display: block;
+} 
+
 /*
 FOOTER
 */
 footer{
     background-color: var(--bg-color-light);
+}
+
+#start-bootstrap{
+    color: var(--bg-color-secondary);
+}
+
+#start-bootstrap:hover{
+    text-decoration: underline;
 }
