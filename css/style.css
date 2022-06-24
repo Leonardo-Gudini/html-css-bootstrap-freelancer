@@ -2,12 +2,37 @@ body{
     font-family: Helvetica, sans-serif;
 }
 
+:root{
+    --bg-color-primary: #354050;
+    --bg-color-light: #44556C;
+    --bg-color-secondary: #6CBA9C;
+
+    --ms_line_white: #fff;
+}
+
+/*
+NAVBAR
+*/
+
 nav, .copyright{
-    background-color: #354050;
+    background-color: var(--bg-color-primary);
+}
+
+
+
+.ms_white_line{
+    display: inline-block;
+    height: 2px;
+    width: 50px;
+    background-color: var(--ms_line_white);
+}
+
+.ms_black_line{
+    background-color: var(--bg-color-primary);
 }
 
 .jumbo, #about-us{
-    background-color: #6CBA9C;
+    background-color: var(--bg-color-secondary);
 }
 
 ul{
@@ -37,5 +62,5 @@ img{
 
 
 footer{
-    background-color: #44556C;
+    background-color: var(--bg-color-light);
 }
