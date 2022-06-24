@@ -21,13 +21,13 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#portfolio">PORTFOLIO</a>
+                    <a class="nav-link" aria-current="page" href="#portfolio">PORTFOLIO</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#about-us">ABOUT</a>
+                    <a class="nav-link" aria-current="page" href="#about-us">ABOUT</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#contact">CONTACT</a>
+                    <a class="nav-link" aria-current="page" href="#contact">CONTACT</a>
                   </li>
                 </ul>
               </div>
@@ -38,20 +38,20 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 d-flex flex-column align-items-center">
-                        <img class="mt-5" src="" alt="">
+                        <img class="mt-5 mb-4 img-fluid" id="avatar" src="img/avatar.svg" alt="avatar">
 
                         <h1 class="text-white mt-2">START BOOTSTRAP</h1>
 
-                        <div class="text-white">
-                            <span class="align-middle ms_white_line"></span>
+                        <div class="text-white mb-2">
+                            <span class="align-middle ms_line"></span>
                             <span>
                                 <i class="ri-star-fill align-bottom"></i>
                             </span>
-                            <span class="align-middle ms_white_line"></span>
+                            <span class="align-middle ms_line"></span>
                         </div>
 
                         <div>
-                            <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                            <p class="text-white mb-5">GRAPHIC DESIGNER - WEB DEVELOPER - ILLUSTRATOR</p>
                         </div>
                     </div>
                 </div>
@@ -67,11 +67,11 @@
                     <div class="col-12 d-flex flex-column align-items-center">
                         <h2>PORTFOLIO</h2>
                 <div class="text-black">
-                    <span class="align-middle ms_white_line"></span>
+                    <span class="align-middle ms_line ms_black_line"></span>
                         <span>
                             <i class="ri-star-fill align-bottom"></i>
                         </span>
-                        <span class="align-middle ms_white_line"></span>
+                        <span class="align-middle ms_line ms_black_line"></span>
                     </div>
                     </div>
                 </div>
@@ -83,23 +83,41 @@
                 <div class="row g-5">
 
                   <div class="col-12 col-md-6 col-lg-4">
-                    <div class="foto_box"></div>
+                    <div class="ms_foto_container">
+                        <img class="img-fluid" src="img/cabin.png" alt="cabin">
+                    </div>
                   </div>
+
                   <div class="col-12 col-md-6 col-lg-4">
-                    <div class="foto_box"></div>
+                    <div class="ms_foto_container">
+                        <img class="img-fluid" src="img/cake.png" alt="cake">
+                    </div>
                   </div>
+
                   <div class="col-12 col-md-6 col-lg-4">
-                    <div class="foto_box"></div>
+                    <div class="ms_foto_container">
+                        <img class="img-fluid" src="img/circus.png" alt="circus">
+                    </div>
                   </div>
+
                   <div class="col-12 col-md-6 col-lg-4">
-                    <div class="foto_box"></div>
+                    <div class="ms_foto_container">
+                        <img class="img-fluid" src="img/game.png" alt="game">
+                    </div>
                   </div>
+
                   <div class="col-12 col-md-6 col-lg-4">
-                    <div class="foto_box"></div>
+                    <div class="ms_foto_container">
+                        <img class="img-fluid" src="img/safe.png" alt="safe">
+                    </div>
                   </div>
+
                   <div class="col-12 col-md-6 col-lg-4">
-                    <div class="foto_box"></div>
+                    <div class="ms_foto_container">
+                        <img class="img-fluid" src="img/submarine.png" alt="submarine">
+                    </div>
                   </div>
+
                 </div>
               </div>
 
@@ -113,11 +131,11 @@
                         <h2 class="mt-5">ABOUT US</h2>
 
                 <div class="text-white">
-                    <span class="align-middle ms_white_line"></span>
+                    <span class="align-middle ms_line"></span>
                         <span>
                             <i class="ri-star-fill align-bottom"></i>
                         </span>
-                        <span class="align-middle ms_white_line"></span>
+                        <span class="align-middle ms_line"></span>
                     </div>
                     </div>
                 </div>
@@ -137,7 +155,10 @@
 
                 <div class="row">
                     <div class="col text-center">
-                        <button>download</button>
+                        <button type="button" class="btn btn-outline-light">
+                            <i class="ri-download-2-fill"></i>
+                            Download
+                        </button>
                     </div>
                 </div>
             </div>
@@ -153,11 +174,11 @@
                         <h2 class="mt-5">CONTACT ME</h2>
 
                 <div class="text-black">
-                    <span class="align-middle ms_white_line"></span>
+                    <span class="align-middle ms_line ms_black_line"></span>
                         <span>
                             <i class="ri-star-fill align-bottom"></i>
                         </span>
-                        <span class="align-middle ms_white_line"></span>
+                        <span class="align-middle ms_line ms_black_line"></span>
                     </div>
                     </div>
                 </div>
@@ -170,20 +191,22 @@
                         <form action="#" method="get">
 
                             <div>
-                                <input type="text" name="nome" id="" placeholder="Name" required>
+                                <input class="border-0 border-bottom mb-3 pb-3" type="text" name="nome" id="" placeholder="Name" required>
                             </div>
 
                             <div>
-                                <input type="email" name="email" id="" placeholder="Email Address" required>
+                                <input class="border-0 border-bottom mb-3 pb-3" type="email" name="email" id="" placeholder="Email Address" required>
                             </div>
                             <div>
-                                <input type="tel" name="phone" id="" placeholder="Phone Number" required>
+                                <input class="border-0 border-bottom mb-3 pb-3" type="tel" name="phone" id="" placeholder="Phone Number" required>
                             </div>
                             <div>
-                                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                                <textarea class="border-0 border-bottom mb-3 pb-3" name="textarea" id="" cols="40" rows="10" placeholder="Message"></textarea>
                             </div>
 
-                            <input type="submit" value="Send">
+                            <button type="button" class="btn btn-success">
+                                Send
+                            </button>
                         </form>
                     </div>
                 </div>

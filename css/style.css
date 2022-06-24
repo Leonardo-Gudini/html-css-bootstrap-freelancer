@@ -11,6 +11,18 @@ body{
 }
 
 /*
+REGOLE COMUNI
+*/
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*
 NAVBAR
 */
 
@@ -18,9 +30,29 @@ nav, .copyright{
     background-color: var(--bg-color-primary);
 }
 
+.nav-link{
+    color: white;
+}
 
+nav .nav-item:hover a{
+    color: var(--bg-color-secondary);
+}
 
-.ms_white_line{
+.ham_menu{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+}
+
+/*
+SEZIONE JUMBO
+*/
+
+#avatar{
+    width: 300px;
+}
+
+.ms_line{
     display: inline-block;
     height: 2px;
     width: 50px;
@@ -35,32 +67,16 @@ nav, .copyright{
     background-color: var(--bg-color-secondary);
 }
 
-ul{
-    list-style: none;
+/*
+SEZIONE MAIN
+*/
+form input, form textarea{
+    width: 100%;
 }
 
-a{
-    text-decoration: none;
-}
-
-.ham_menu{
-    height: 40px;
-    width: 40px;
-    background-color: white;
-}
-
-img{
-    width: 100px;
-    height: 100px;
-    background-color: white;
-}
-
-.foto_box{
-    height: 200px;
-    background-color: red;
-}
-
-
+/*
+FOOTER
+*/
 footer{
     background-color: var(--bg-color-light);
 }
